@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  max-width: 414px;
+}
+
+
+.content {
+  height: 100vh;
+  background: url(moutian-back.jpg) ;
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+}
+
+
+img {
+  width: 200px;
+  margin: 0 100px;
+
+}
+.text {
+  text-align: center;
+  margin-top: -120px;
+}
+
+h1 {
+  font-size: 60px;
+  color: gold;
+}
+
+h2{
+  color: #00224D;
+  font-weight: 800;
+}
+
+.form-container {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20%;
+}
+
+form {
+  width: 70%;
+}
+
+form input, #option {
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 1px solid #fff;
+  background: rgba(3, 58, 68, 0.5);
+}
+
+input::placeholder {
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+input:focus {
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+
+.forgot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+  font-weight: 500;
+}
+
+#forgot-password {
+  margin-bottom: -0px;
+  margin-left: -45%;
+}
+
+.re {
+  margin-left: -130px;
+  margin-right: auto;
+}
+
+#option {
+  font-size: 16px;
+  color: #fff;
+}
+
+.op {
+  background-color: rgb(231, 129, 56);
+  color:white;
+}
+
+#ifexlogo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  top: -7px;
+  left: 25px;
+  transform: translate(50px, 0px);
+  width: 200px;
+  z-index: -1;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 120px;
+}
+
+#login-but {
+  margin-top: 10px;
+  background-color: #00224D;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+  font-weight: 400;
+}
+
+.login-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-weight: 900;
+}
+
+.signup {
+  margin-left: 8px;
+  color: gold;
+}

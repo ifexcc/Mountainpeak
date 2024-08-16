@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up/login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="content">
+
+    <img src="logo mountain.png" alt="logo">
+
+    <div class="text">
+      <h1>MOUNTAIN <br> PEAK</h1>
+      <h2>INVESTMENTS</h2>
+    </div>
+
+    <div class="form-container">
+      <form action="">
+        <div>
+          <label for="fullname"></label>
+          <input type="text" id="fullname" placeholder="Full Name" required>
+        </div>
+
+        <div>
+          <label for="email"></label>
+          <input type="email" id="email" placeholder="Email" required>
+        </div>
+
+        <div>
+          <label for="username"></label>
+          <input type="text" id="username" placeholder="Username" required>
+        </div>
+
+        <div>
+          <label for="password"></label>
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+
+        <div>
+          <label for="phone"></label>
+          <input type="Phone" id="phone" placeholder="Phone" required>
+        </div>
+
+        <div id="ifex">
+          <select name="" id="option">
+            <option value="" class="op">Select Country</option>
+            <option value="" class="op">Nigeria</option>
+            <option value="" class="op">Ghana</option>
+            <option value="" class="op">Cameroon</option>
+            <option value="" class="op">Kenya</option>
+            <option value="" class="op">Uganda</option>
+          </select>
+        </div>
+
+       <input type="submit" name="" id="send" onclick="signup()"  value="Sign Up">
+       <script>
+        function signup() {
+          window.location.href="home.html";
+        }
+       </script>
+      </form>
+    </div>
+
+    <div id="login-bar">
+      <div>Already have an account?</div>
+      <div id="login" onclick="login()">login</div>
+      <script>
+        function login() {
+          window.location.href="login.html";
+        }
+      </script>
+    </div>
+    <!-- <script>alert("Welcome to Mountain")</script> -->
+  </div>
+</body>
+
+</html>

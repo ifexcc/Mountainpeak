@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up/login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+  <div class="content">
+
+    <img src="logo mountain.png" alt="logo">
+
+    <div class="text">
+      <h1>WELCOME <br> BACK</h1>
+    </div>
+
+    <div class="form-container">
+      <form action="">
+        <div>
+          <label for="username"></label>
+          <input type="text" id="username" placeholder="Username" required>
+        </div>
+
+        <div>
+          <label for="password"></label>
+          <input type="password" id="password" placeholder="Password" required>
+        </div>
+
+        <div class="forgot">
+          <input type="checkbox" name="Remember" id="forgot-password">
+          <div class="re">Remember Me</div>
+          <div>Forgot Password?</div>
+        </div>
+
+       <input type="submit" name="" id="login-but" onclick="myFunction()"  value="Login">
+       <script>
+        function myFunction() {
+          window.location.href="index.html";
+        }
+       </script>
+      </form>
+    </div>
+
+    <div class="login-bar">
+      <p>Don't have an Account?</p>
+      <div class="signup" onclick="signup()">Sign-Up</div>
+      <script>
+        function signup() {
+          window.location.href="sign-up.html";
+        }
+       </script>
+    </div>
+  </div>
+</body>
+
+</html>
